@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This project is a 4-bit by 4-bit unsigned multiplier built in Verilog. It takes two 4-bit inputs from `ui_in`, multiplies them, and sends the 8-bit product to `uo_out`.
 
 ## How to test
 
-Explain how to use your project
+Apply two 4-bit values to the input bus, with one operand in the upper 4 bits and the other in the lower 4 bits. The output should match their product, and the testbench verifies this by checking multiple input combinations automatically.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+N/a
